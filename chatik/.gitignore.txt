@@ -1,3 +1,0 @@
-#folder logs
-node_modules
-../test/*.txt
