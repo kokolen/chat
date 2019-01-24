@@ -1,0 +1,39 @@
+html{
+	background-color: #a4edbe
+}
+#online {
+	background-color: white;
+	width:300px;
+	height: 200px;
+	left:  350px; 
+	top: 30px;
+	opacity: 0.9;
+	float: right;
+	position: absolute;
+}
+#demo{
+	position: absolute;
+	display: block;
+	background-color: white;
+	height: 210px;
+	width:600px;
+	overflow-y: scroll;
+	top: 236px;
+	/*-webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: right;
+    -webkit-animation-timing-function: linear;
+}
+#box:hover {
+    	-webkit-animation-play-state: paused;
+}
+@-webkit-keyframes move {
+    	0% {
+    		margin-left: -400px;
+    	}
+    	100% {
+    		margin-left: 800px;
+    	}
+}*/
+}

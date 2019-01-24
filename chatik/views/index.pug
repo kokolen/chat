@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
+    script(src='/script.js')
+    script(src='https://momentjs.com/downloads/moment.js')
+    link(rel='stylesheet', type='text/css', href='style.css')
+  body
+    p
+      b Ваше имя:
+      br
+      input#name(type='text', size='40')
+    p
+      b Сообщение:
+      br
+      input#msg(type='text', size='40')
+    button(onclick='myFunction()') Отправить
+    #demo  
+    #online
+      b "Качки в качалочке"
