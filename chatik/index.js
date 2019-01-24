@@ -1,3 +1,4 @@
+var amamam=1;
 var express = require('express');
 var request = require('request-promise');
 var WebSocketServer = new require('ws');
